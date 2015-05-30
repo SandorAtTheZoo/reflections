@@ -10,3 +10,7 @@ other people may make modifications that you don't want to include with your pro
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 fork exists on github only and makes a copy of someone else's repository, indicating there is a link.  clones are copies of any existing repository (locally or remote), and branches are done to a repository to track commits separately from the other branches.  Only branches can be pushed or pulled from github.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+you can continue operating without an internet connection for the time being, letting you merge your local changes while not in touch with the remote repository
