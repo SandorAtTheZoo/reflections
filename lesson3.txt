@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 
 collaboration; remote backup; if you're travelling and would like something accessible from machines other 
 than your own
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+other people may make modifications that you don't want to include with your project at that time
