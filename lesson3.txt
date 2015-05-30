@@ -18,3 +18,7 @@ you can continue operating without an internet connection for the time being, le
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 try to architect the project so that people don't work on the same files.  Work while co-located. Communication could be better in same location, but the cost is more work to try to split the project up into separately workable sections and if merging had to happen, it would be very difficult.  Also, time stamping data and keeping revisions would not be available, making the final product more error prone (without version control)
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+when you have significant experimental changes, a branch would be appropriate or when you're in a large group collaborating on a common master, branches would help limit the pollution of master.  It takes more time to merge though than it does to commit with a common parent (potentially), so maybe smaller changes on smaller projects would be acceptable
